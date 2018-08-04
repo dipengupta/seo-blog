@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Sign_up.css">
+</head>
+<body>
+	<h1>Sign Up : </h1>
+	<form action="submit.html">
+			<fieldset>
+			
+			<legend>Personal Info</legend>
+		
+			Name : <input type="text" name="name" required> <br><br>
+			E-mail: <input type="email" name="email" autocomplete="off" required><br><br>
+			Gender : <br>
+				<div id="ins">
+					<p>Male<input type="radio" name="gender" id="male"></p>
+					<p>Female<input type="radio" name="gender" id="female"></p>
+					<p>Rather not say<input type="radio" name="gender" id="no" checked></p> 
+				</div>	
+			Birthday : <input type="date"><br>	
+				
+			</fieldset>	<br>
+		
+			<fieldset>
+			
+			<legend>Other Info</legend>
+			
+			Instruments played : <br>
+				<div id="ins">
+					<input type="checkbox" name="Guitar" value="guitsar">Guitar<br>
+					<input type="checkbox" name="Bass" value="bass">Bass<br>
+					<input type="checkbox" name="Drums" value="drums">Drums<br>
+					<input type="checkbox" name="Keys" value="keys">Keys<br> <br>				
+					<input type="hidden" name="Music Theory" value="mt">
+				</div>		
+			
+			Further Suggestions : <br>
+			<textarea name="suggestions"> </textarea> <br><br>
+			
+			Your profile pic (optional)<br> <input type="file" name="pic"><br><br>
+			</fieldset>
+		
+			<br>
+			
+			<input type="submit">
+			<input type="reset">
+	</form>
+</body>
+</html>

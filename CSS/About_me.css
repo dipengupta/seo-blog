@@ -1,0 +1,82 @@
+body
+{
+	background-color: hsl(0, 0%, 15%) ;
+	color : white;
+	animation-duration: 1s ;
+	animation-name: pulse;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes pulse
+{
+	0% {background-color: hsl(0, 0%, 15%);}
+	50% {background-color: hsl(0, 0%, 25%);}
+	100% {background-color: hsl(0, 0%, 15%) ;}
+}
+
+img
+{
+	height: 30px ;
+	width: 30px ;
+	border : 1px solid white;
+}
+
+img:hover 
+{
+    box-shadow: 0 0 2px 1px rgba(255, 255, 255, 50%);
+}
+
+h1
+{
+	font-family: verdana ;
+	font-size: 40px ;
+	font-weight: bold ;
+}
+
+p
+{
+	font-family: verdana ;
+	font-size: 20px ;
+}
+
+a : link
+{
+	color : red;
+}
+
+a : hover 
+{
+	color : grey ;
+}
+
+a : visited
+{
+	color :red;
+}
+
+#mar0
+{
+	margin-left: 3% ;
+}
+
+#mar1
+{
+	margin-left: 20% ;
+}
+
+#mar2
+{
+	margin-left: 20% ;
+}
+
+#mar3
+{
+	margin-left: 20% ;
+	margin-right: 20% ;
+}
+
+#mar4
+{
+	margin-right: 0% ;
+}
