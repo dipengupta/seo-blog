@@ -1,0 +1,30 @@
+body
+{
+	background-color: hsl(0, 0%, 15%) ;
+	color : white;
+}
+
+h1
+{
+	font-family: verdana ;
+	padding-left : 4%;
+}
+
+form
+{
+	margin-left : 30%;
+	width : 40%;
+	border : 5px dotted grey;
+	padding : 10px;
+}
+
+#ins
+{
+	margin-left: 25px ;
+}
+
+legend
+{
+	font-family: verdana ;
+	font-weight: bold ;
+}
